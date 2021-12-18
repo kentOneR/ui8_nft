@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Class02</title>
+    <title>Home</title>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
@@ -44,13 +44,10 @@
   </head>
   <body>
     <script>
-      console.log(localStorage.getItem('darkMode'));
-      if (localStorage.getItem('darkMode') === "on") {
         document.body.classList.add("dark");
         document.addEventListener("DOMContentLoaded", function() {
           document.querySelector('.js-theme input').checked = true;
         });
-      }
     </script>
     <!-- outer-->
     <div class="outer">
@@ -59,7 +56,7 @@
         <div class="header__center center"><a class="header__logo" href="index.html"><img class="some-icon" src="img/logo-dark.svg" alt="Fitness Pro"><img class="some-icon-dark" src="img/logo-light.svg" alt="Fitness Pro"></a>
           <div class="header__wrap js-header-wrap">
             <nav class="header__nav"><a class="header__link" href="features.html">Features</a><a class="header__link" href="pricing.html">Pricing</a><a class="header__link" href="download.html">Download</a>
-              <div class="header__dropdown js-header-dropdown active">
+              <div class="header__dropdown js-header-dropdown">
                 <div class="header__head js-header-head">Class
                   <svg class="icon icon-arrow-bottom">
                     <use xlink:href="#icon-arrow-bottom"></use>
@@ -73,7 +70,7 @@
                           <div class="header__preview"><img srcSet="img/content/ball@2x.png 2x" src="img/content/ball.png" alt="Ball"></div></a>
                         <div class="header__menu"><a class="header__box" href="class01.html">
                             <div class="header__icon"><img src="img/menu-video.svg" alt="Video"></div>
-                            <div class="header__text">Program Videos</div></a><a class="header__box active" href="class02.html">
+                            <div class="header__text">Program Videos</div></a><a class="header__box" href="class02.html">
                             <div class="header__icon"><img src="img/menu-class.svg" alt="Class"></div>
                             <div class="header__text">Premium Class</div></a></div>
                       </div>
@@ -200,349 +197,10 @@
           <button class="header__burger js-header-burger"></button>
         </div>
       </header>
+
       <!-- container-->
       <div class="outer__content">
-        <div class="main3">
-          <div class="main3__center center">
-            <div class="main3__wrap">
-              <div class="stage">Train smarter. get stronger</div>
-              <h1 class="main3__title h1">If you workout, Fitness Pro is made for you</h1>
-              <div class="main3__text">Track your workouts, get better results, and be the bestversion of you. Less thinking, more lifting.</div><a class="button main3__button" href="class02-details.html">Book a class</a>
-            </div><a class="scroll js-scroll" href="#programs">
-              <div class="scroll__line">
-                <svg class="icon icon-arrow-down">
-                  <use xlink:href="#icon-arrow-down"></use>
-                </svg>
-                <svg class="icon icon-arrow-down">
-                  <use xlink:href="#icon-arrow-down"></use>
-                </svg>
-              </div></a>
-            <div class="main3__gallery">
-              <div class="main3__preview"><img class="some-icon" srcSet="img/content/main-pic-1@2x.png 2x" src="img/content/main-pic-1.png" alt="Main"><img class="some-icon-dark" srcSet="img/content/main-pic-dark-1@2x.png 2x" src="img/content/main-pic-dark-1.png" alt="Main"></div>
-              <div class="main3__preview" data-aos="animation-translate-up" data-aos-anchor=".main3__gallery"><img srcSet="img/content/ball@2x.png 2x" src="img/content/ball.png" alt="Ball"></div>
-              <div class="main3__preview" data-aos="animation-translate-up" data-aos-delay="300" data-aos-anchor=".main3__gallery"><img srcSet="img/content/ball-black@2x.png 2x" src="img/content/ball-black.png" alt="Ball black"></div>
-              <div class="main3__preview" data-aos="animation-translate-up" data-aos-delay="600" data-aos-anchor=".main3__gallery"><img srcSet="img/content/dumbbells@2x.png 2x" src="img/content/dumbbells.png" alt="Dumbbells"></div>
-            </div>
-          </div>
-        </div>
-        <div class="programs">
-          <div class="programs__anchor" id="programs"></div>
-          <div class="programs__center center">
-            <div class="programs__top">
-              <h2 class="programs__title h4">A special 1-on-1 workout program that gives you complete control over the volume for a perfect physique</h2>
-              <div class="programs__info"><strong class="programs__green">10% Discount</strong> if you’re already using the <strong class="programs__black">Fitness Pro</strong> on App Store</div>
-            </div>
-            <div class="programs__wrap">
-              <div class="programs__slider js-slider-programs">
-                <div class="programs__slide" data-aos="animation-opacity">
-                  <div class="programs__item">
-                    <div class="programs__icon" style="background-color: #45B26B;"><img src="img/content/user.svg" alt="User"></div>
-                    <div class="programs__subtitle">Beginners</div>
-                    <div class="programs__content">A 7-days training program designed to boost your strength & endurance over the course of a week.</div><a class="button-stroke programs__button" href="class02-details.html">Book a class</a>
-                  </div>
-                </div>
-                <div class="programs__slide" data-aos="animation-opacity">
-                  <div class="programs__item">
-                    <div class="programs__icon" style="background-color: #9757D7;"><img src="img/content/medal-1.svg" alt="Medal"></div>
-                    <div class="programs__subtitle">Advanced</div>
-                    <div class="programs__content">A 7-days training program designed to boost your strength & endurance over the course of a week.</div><a class="button-stroke programs__button" href="class02-details.html">Book a class</a>
-                  </div>
-                </div>
-                <div class="programs__slide" data-aos="animation-opacity">
-                  <div class="programs__item">
-                    <div class="programs__icon" style="background-color: #3772FF;"><img src="img/content/lightning.svg" alt="Lightning"></div>
-                    <div class="programs__subtitle">Premium</div>
-                    <div class="programs__content">A 7-days training program designed to boost your strength & endurance over the course of a week.</div><a class="button-stroke programs__button" href="class02-details.html">Book a class</a>
-                  </div>
-                </div>
-                <div class="programs__slide" data-aos="animation-opacity">
-                  <div class="programs__item">
-                    <div class="programs__icon" style="background-color: #45B26B;"><img src="img/content/user.svg" alt="User"></div>
-                    <div class="programs__subtitle">Beginners</div>
-                    <div class="programs__content">A 7-days training program designed to boost your strength & endurance over the course of a week.</div><a class="button-stroke programs__button" href="class02-details.html">Book a class</a>
-                  </div>
-                </div>
-                <div class="programs__slide" data-aos="animation-opacity">
-                  <div class="programs__item">
-                    <div class="programs__icon" style="background-color: #9757D7;"><img src="img/content/medal-1.svg" alt="Medal"></div>
-                    <div class="programs__subtitle">Advanced</div>
-                    <div class="programs__content">A 7-days training program designed to boost your strength & endurance over the course of a week.</div><a class="button-stroke programs__button" href="class02-details.html">Book a class</a>
-                  </div>
-                </div>
-                <div class="programs__slide" data-aos="animation-opacity">
-                  <div class="programs__item">
-                    <div class="programs__icon" style="background-color: #3772FF;"><img src="img/content/lightning.svg" alt="Lightning"></div>
-                    <div class="programs__subtitle">Premium</div>
-                    <div class="programs__content">A 7-days training program designed to boost your strength & endurance over the course of a week.</div><a class="button-stroke programs__button" href="class02-details.html">Book a class</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="section trainers js-tabs">
-          <div class="trainers__center center">
-            <h2 class="trainers__title h2">Professional trainers</h2>
-            <div class="trainers__info">Stacks is a production-ready library of stackable content blocks built in React Native.</div>
-            <div class="trainers__nav"><a class="trainers__link js-tabs-link active" href="#">Yoga</a><a class="trainers__link js-tabs-link" href="#">Gym & Fitness</a><a class="trainers__link js-tabs-link" href="#">Gymnastics</a><a class="trainers__link js-tabs-link" href="#">Mindfulness</a></div>
-            <select class="select js-tabs-select">
-              <option>Yoga</option>
-              <option>Gym & Fitness</option>
-              <option>Gymnastics</option>
-              <option>Mindfulness</option>
-            </select>
-            <div class="trainers__container">
-              <div class="trainers__box js-tabs-item">
-                <div class="trainers__list">
-                                    <div class="trainers__item" data-aos="animation-opacity"><a class="trainers__element js-popup-open" href="#popup-trainer">
-                                        <div class="trainers__avatar"><img src="img/content/avatar-1.png" alt="Avatar"></div>
-                                        <div class="trainers__name">Dariana Hammes</div>
-                                        <div class="trainers__position">Yoga Master</div></a></div>
-                                    <div class="trainers__item" data-aos="animation-opacity"><a class="trainers__element js-popup-open" href="#popup-trainer">
-                                        <div class="trainers__avatar"><img src="img/content/avatar-2.png" alt="Avatar"></div>
-                                        <div class="trainers__name">Karianne Grimes</div>
-                                        <div class="trainers__position">Yoga Master</div></a></div>
-                                    <div class="trainers__item" data-aos="animation-opacity"><a class="trainers__element js-popup-open" href="#popup-trainer">
-                                        <div class="trainers__avatar"><img src="img/content/avatar-3.png" alt="Avatar"></div>
-                                        <div class="trainers__name">Cathryn Blick</div>
-                                        <div class="trainers__position">Yoga Master</div></a></div>
-                                    <div class="trainers__item" data-aos="animation-opacity"><a class="trainers__element js-popup-open" href="#popup-trainer">
-                                        <div class="trainers__avatar"><img src="img/content/avatar-4.png" alt="Avatar"></div>
-                                        <div class="trainers__name">Edna Hipert</div>
-                                        <div class="trainers__position">Yoga Master</div></a></div>
-                                    <div class="trainers__item" data-aos="animation-opacity"><a class="trainers__element js-popup-open" href="#popup-trainer">
-                                        <div class="trainers__avatar"><img src="img/content/avatar-5.png" alt="Avatar"></div>
-                                        <div class="trainers__name">Kacie Rath</div>
-                                        <div class="trainers__position">Yoga Master</div></a></div>
-                                    <div class="trainers__item" data-aos="animation-opacity"><a class="trainers__element js-popup-open" href="#popup-trainer">
-                                        <div class="trainers__avatar"><img src="img/content/avatar-6.png" alt="Avatar"></div>
-                                        <div class="trainers__name">Johathan Kuphal</div>
-                                        <div class="trainers__position">Yoga Master</div></a></div>
-                                    <div class="trainers__item" data-aos="animation-opacity"><a class="trainers__element js-popup-open" href="#popup-trainer">
-                                        <div class="trainers__avatar"><img src="img/content/avatar-1.png" alt="Avatar"></div>
-                                        <div class="trainers__name">Raina Block</div>
-                                        <div class="trainers__position">Yoga Master</div></a></div>
-                                    <div class="trainers__item" data-aos="animation-opacity"><a class="trainers__element js-popup-open" href="#popup-trainer">
-                                        <div class="trainers__avatar"><img src="img/content/avatar-2.png" alt="Avatar"></div>
-                                        <div class="trainers__name">Bulah Hammes</div>
-                                        <div class="trainers__position">Yoga Master</div></a></div>
-                </div>
-              </div>
-              <div class="trainers__box js-tabs-item">
-                <div class="trainers__list">
-                                    <div class="trainers__item" data-aos="animation-opacity"><a class="trainers__element js-popup-open" href="#popup-trainer">
-                                        <div class="trainers__avatar"><img src="img/content/avatar-2.png" alt="Avatar"></div>
-                                        <div class="trainers__name">Karianne Grimes</div>
-                                        <div class="trainers__position">Yoga Master</div></a></div>
-                                    <div class="trainers__item" data-aos="animation-opacity"><a class="trainers__element js-popup-open" href="#popup-trainer">
-                                        <div class="trainers__avatar"><img src="img/content/avatar-3.png" alt="Avatar"></div>
-                                        <div class="trainers__name">Cathryn Blick</div>
-                                        <div class="trainers__position">Yoga Master</div></a></div>
-                                    <div class="trainers__item" data-aos="animation-opacity"><a class="trainers__element js-popup-open" href="#popup-trainer">
-                                        <div class="trainers__avatar"><img src="img/content/avatar-4.png" alt="Avatar"></div>
-                                        <div class="trainers__name">Edna Hipert</div>
-                                        <div class="trainers__position">Yoga Master</div></a></div>
-                                    <div class="trainers__item" data-aos="animation-opacity"><a class="trainers__element js-popup-open" href="#popup-trainer">
-                                        <div class="trainers__avatar"><img src="img/content/avatar-5.png" alt="Avatar"></div>
-                                        <div class="trainers__name">Kacie Rath</div>
-                                        <div class="trainers__position">Yoga Master</div></a></div>
-                                    <div class="trainers__item" data-aos="animation-opacity"><a class="trainers__element js-popup-open" href="#popup-trainer">
-                                        <div class="trainers__avatar"><img src="img/content/avatar-6.png" alt="Avatar"></div>
-                                        <div class="trainers__name">Johathan Kuphal</div>
-                                        <div class="trainers__position">Yoga Master</div></a></div>
-                </div>
-              </div>
-              <div class="trainers__box js-tabs-item">
-                <div class="trainers__list">
-                                    <div class="trainers__item" data-aos="animation-opacity"><a class="trainers__element js-popup-open" href="#popup-trainer">
-                                        <div class="trainers__avatar"><img src="img/content/avatar-1.png" alt="Avatar"></div>
-                                        <div class="trainers__name">Dariana Hammes</div>
-                                        <div class="trainers__position">Yoga Master</div></a></div>
-                                    <div class="trainers__item" data-aos="animation-opacity"><a class="trainers__element js-popup-open" href="#popup-trainer">
-                                        <div class="trainers__avatar"><img src="img/content/avatar-2.png" alt="Avatar"></div>
-                                        <div class="trainers__name">Karianne Grimes</div>
-                                        <div class="trainers__position">Yoga Master</div></a></div>
-                                    <div class="trainers__item" data-aos="animation-opacity"><a class="trainers__element js-popup-open" href="#popup-trainer">
-                                        <div class="trainers__avatar"><img src="img/content/avatar-3.png" alt="Avatar"></div>
-                                        <div class="trainers__name">Cathryn Blick</div>
-                                        <div class="trainers__position">Yoga Master</div></a></div>
-                                    <div class="trainers__item" data-aos="animation-opacity"><a class="trainers__element js-popup-open" href="#popup-trainer">
-                                        <div class="trainers__avatar"><img src="img/content/avatar-4.png" alt="Avatar"></div>
-                                        <div class="trainers__name">Edna Hipert</div>
-                                        <div class="trainers__position">Yoga Master</div></a></div>
-                                    <div class="trainers__item" data-aos="animation-opacity"><a class="trainers__element js-popup-open" href="#popup-trainer">
-                                        <div class="trainers__avatar"><img src="img/content/avatar-5.png" alt="Avatar"></div>
-                                        <div class="trainers__name">Kacie Rath</div>
-                                        <div class="trainers__position">Yoga Master</div></a></div>
-                                    <div class="trainers__item" data-aos="animation-opacity"><a class="trainers__element js-popup-open" href="#popup-trainer">
-                                        <div class="trainers__avatar"><img src="img/content/avatar-6.png" alt="Avatar"></div>
-                                        <div class="trainers__name">Johathan Kuphal</div>
-                                        <div class="trainers__position">Yoga Master</div></a></div>
-                                    <div class="trainers__item" data-aos="animation-opacity"><a class="trainers__element js-popup-open" href="#popup-trainer">
-                                        <div class="trainers__avatar"><img src="img/content/avatar-1.png" alt="Avatar"></div>
-                                        <div class="trainers__name">Raina Block</div>
-                                        <div class="trainers__position">Yoga Master</div></a></div>
-                </div>
-              </div>
-              <div class="trainers__box js-tabs-item">
-                <div class="trainers__list">
-                                    <div class="trainers__item" data-aos="animation-opacity"><a class="trainers__element js-popup-open" href="#popup-trainer">
-                                        <div class="trainers__avatar"><img src="img/content/avatar-4.png" alt="Avatar"></div>
-                                        <div class="trainers__name">Edna Hipert</div>
-                                        <div class="trainers__position">Yoga Master</div></a></div>
-                                    <div class="trainers__item" data-aos="animation-opacity"><a class="trainers__element js-popup-open" href="#popup-trainer">
-                                        <div class="trainers__avatar"><img src="img/content/avatar-5.png" alt="Avatar"></div>
-                                        <div class="trainers__name">Kacie Rath</div>
-                                        <div class="trainers__position">Yoga Master</div></a></div>
-                                    <div class="trainers__item" data-aos="animation-opacity"><a class="trainers__element js-popup-open" href="#popup-trainer">
-                                        <div class="trainers__avatar"><img src="img/content/avatar-6.png" alt="Avatar"></div>
-                                        <div class="trainers__name">Johathan Kuphal</div>
-                                        <div class="trainers__position">Yoga Master</div></a></div>
-                                    <div class="trainers__item" data-aos="animation-opacity"><a class="trainers__element js-popup-open" href="#popup-trainer">
-                                        <div class="trainers__avatar"><img src="img/content/avatar-1.png" alt="Avatar"></div>
-                                        <div class="trainers__name">Raina Block</div>
-                                        <div class="trainers__position">Yoga Master</div></a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="section-pb community">
-          <div class="community__center center">
-            <div class="community__preview" data-aos="animation-translate-up"><img class="some-icon" srcSet="img/content/dumbbell@2x.png 2x" src="img/content/dumbbell.png" alt="Dumbbell"><img class="some-icon-dark" srcSet="img/content/dumbbell-dark@2x.png 2x" src="img/content/dumbbell-dark.png" alt="Dumbbell"></div>
-            <div class="stage-small">Save your time with Stacks</div>
-            <h2 class="community__title h2">Join Fitness Pro Community</h2>
-            <div class="community__text">Join Stacks community now to get free updates and also alot of freebies are waiting for you.</div>
-            <form class="subscription">
-              <input class="subscription__input" type="email" placeholder="Enter your email" required="required"/>
-              <button class="subscription__btn">
-                <svg class="icon icon-arrow-right">
-                  <use xlink:href="#icon-arrow-right"></use>
-                </svg>
-              </button>
-            </form>
-            <div class="community__note">By click sign in you, you agree with Stacks <a href="#">terms</a> and <a href="#">policy</a></div>
-          </div>
-        </div>
-        <div class="popup popup_trainer mfp-hide" id="popup-trainer">
-          <div class="trainer">
-            <div class="trainer__avatar"><img src="img/content/avatar-5.png" alt="Avatar"/></div>
-            <div class="trainer__name h3">Johathan Kula</div>
-            <div class="trainer__position">Personal trainer</div>
-            <div class="trainer__socials"><a class="trainer__social" href="https://facebook.com" target="_blank">
-                <svg class="icon icon-facebook">
-                  <use xlink:href="#icon-facebook"></use>
-                </svg></a><a class="trainer__social" href="https://instagram.com" target="_blank">
-                <svg class="icon icon-instagram">
-                  <use xlink:href="#icon-instagram"></use>
-                </svg></a><a class="trainer__social" href="https://twitter.com" target="_blank">
-                <svg class="icon icon-twitter">
-                  <use xlink:href="#icon-twitter"></use>
-                </svg></a><a class="trainer__social" href="https://linkedin.com" target="_blank">
-                <svg class="icon icon-linkedin">
-                  <use xlink:href="#icon-linkedin"></use>
-                </svg></a></div>
-            <form class="subscription">
-              <input class="subscription__input" type="email" placeholder="Find a class" required="required"/>
-              <button class="subscription__btn">
-                <svg class="icon icon-arrow-right">
-                  <use xlink:href="#icon-arrow-right"></use>
-                </svg>
-              </button>
-            </form>
-            <div class="trainer__wrap">
-              <div class="trainer__slider js-slider-trainer">
-                <div class="trainer__slide"><a class="trainer__item" href="class01-details.html">
-                              <div class="trainer__preview"><img srcSet="img/content/card-pic-1.png 2x" src="img/content/card-pic-1@2x.png" alt="yoga"/>
-                                <div class="status-white trainer__category">yoga</div>
-                              </div>
-                              <div class="trainer__head">
-                                <div class="trainer__title">Power Yoga Sculpt</div>
-                                <div class="status-stroke-green trainer__level">beginner</div>
-                              </div>
-                              <div class="trainer__parameters">
-                                <div class="trainer__parameter">
-                                  <svg class="icon icon-button-play">
-                                    <use xlink:href="#icon-button-play"></use>
-                                  </svg>7
-                                </div>
-                                <div class="trainer__parameter">
-                                  <svg class="icon icon-user">
-                                    <use xlink:href="#icon-user"></use>
-                                  </svg>160
-                                </div>
-                              </div></a>
-                </div>
-                <div class="trainer__slide"><a class="trainer__item" href="class01-details.html">
-                              <div class="trainer__preview"><img srcSet="img/content/card-pic-2.png 2x" src="img/content/card-pic-2@2x.png" alt="fitness"/>
-                                <div class="status-white trainer__category">fitness</div>
-                              </div>
-                              <div class="trainer__head">
-                                <div class="trainer__title">Power Yoga Sculpt</div>
-                                <div class="status-stroke-green trainer__level">beginner</div>
-                              </div>
-                              <div class="trainer__parameters">
-                                <div class="trainer__parameter">
-                                  <svg class="icon icon-button-play">
-                                    <use xlink:href="#icon-button-play"></use>
-                                  </svg>7
-                                </div>
-                                <div class="trainer__parameter">
-                                  <svg class="icon icon-user">
-                                    <use xlink:href="#icon-user"></use>
-                                  </svg>160
-                                </div>
-                              </div></a>
-                </div>
-                <div class="trainer__slide"><a class="trainer__item" href="class01-details.html">
-                              <div class="trainer__preview"><img srcSet="img/content/card-pic-3.png 2x" src="img/content/card-pic-3@2x.png" alt="yoga"/>
-                                <div class="status-white trainer__category">yoga</div>
-                              </div>
-                              <div class="trainer__head">
-                                <div class="trainer__title">Power Yoga Sculpt</div>
-                                <div class="status-stroke-green trainer__level">beginner</div>
-                              </div>
-                              <div class="trainer__parameters">
-                                <div class="trainer__parameter">
-                                  <svg class="icon icon-button-play">
-                                    <use xlink:href="#icon-button-play"></use>
-                                  </svg>7
-                                </div>
-                                <div class="trainer__parameter">
-                                  <svg class="icon icon-user">
-                                    <use xlink:href="#icon-user"></use>
-                                  </svg>160
-                                </div>
-                              </div></a>
-                </div>
-                <div class="trainer__slide"><a class="trainer__item" href="class01-details.html">
-                              <div class="trainer__preview"><img srcSet="img/content/card-pic-4.png 2x" src="img/content/card-pic-4@2x.png" alt="fitness"/>
-                                <div class="status-white trainer__category">fitness</div>
-                              </div>
-                              <div class="trainer__head">
-                                <div class="trainer__title">Power Yoga Sculpt</div>
-                                <div class="status-stroke-green trainer__level">beginner</div>
-                              </div>
-                              <div class="trainer__parameters">
-                                <div class="trainer__parameter">
-                                  <svg class="icon icon-button-play">
-                                    <use xlink:href="#icon-button-play"></use>
-                                  </svg>7
-                                </div>
-                                <div class="trainer__parameter">
-                                  <svg class="icon icon-user">
-                                    <use xlink:href="#icon-user"></use>
-                                  </svg>160
-                                </div>
-                              </div></a>
-                </div>
-              </div>
-            </div>
-            <div class="trainer__btns">
-              <button class="button-small trainer__button">Browse all class</button>
-            </div>
-          </div>
-        </div>
+
       </div>
       <!-- footer-->
       <footer class="footer">

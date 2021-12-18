@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Lifestyle</title>
+    <title>Home</title>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
@@ -44,13 +44,10 @@
   </head>
   <body>
     <script>
-      console.log(localStorage.getItem('darkMode'));
-      if (localStorage.getItem('darkMode') === "on") {
         document.body.classList.add("dark");
         document.addEventListener("DOMContentLoaded", function() {
           document.querySelector('.js-theme input').checked = true;
         });
-      }
     </script>
     <!-- outer-->
     <div class="outer">
@@ -166,7 +163,7 @@
                     </div>
                   </div>
                 </div>
-              </div><a class="header__link active" href="lifestyle.html">Lifestyle</a>
+              </div><a class="header__link" href="lifestyle.html">Lifestyle</a>
             </nav>
             <div class="header__group">
               <div class="header__contacts">
@@ -200,281 +197,61 @@
           <button class="header__burger js-header-burger"></button>
         </div>
       </header>
+
       <!-- container-->
       <div class="outer__content">
-        <div class="section post">
-          <div class="post__center center">
-            <h1 class="post__title hero">Lifestyle</h1>
-            <div class="post__info">Track your workouts, get better results, and be the best version of you. Less thinking, more lifting.</div>
-            <div class="history">
-              <div class="history__wrap">
-                <div class="history__slider js-slider-history">
-                  <div class="history__slide">
-                    <div class="history__item">
-                      <div class="history__preview" style="background-image: url('img/content/history-pic.png');"></div>
-                      <div class="history__details">
-                        <div class="status-pink history__status">new</div>
-                        <div class="history__title">Stories From Our Community: Kohaku & Moyo Shiro</div>
-                        <div class="history__content">Track your workouts, get better results, and be the best version of you. Less thinking</div><a class="button-small history__button" href="article.html">Read full story</a>
-                      </div>
-                    </div>
+        <div class="section-pb programs">
+          <div class="programs__center center">
+            <div class="programs__top">
+              <h2 class="programs__title h2">You may interested</h2>
+              <div class="programs__info"><strong class="programs__green">10% Discount</strong> if you’re already using the <strong class="programs__black">Fitness Pro</strong> on App Store</div>
+            </div>
+            <div class="programs__wrap">
+              <div class="programs__slider js-slider-programs">
+                <div class="programs__slide" data-aos="animation-opacity">
+                  <div class="programs__item">
+                    <div class="programs__icon" style="background-color: #45B26B;"><img src="img/content/user.svg" alt="User"></div>
+                    <div class="programs__subtitle">Beginners</div>
+                    <div class="programs__content">A 7-days training program designed to boost your strength & endurance over the course of a week.</div><a class="button-stroke programs__button" href="class02-details.html">Book a class</a>
                   </div>
-                  <div class="history__slide">
-                    <div class="history__item">
-                      <div class="history__preview" style="background-image: url('img/content/history-pic.png');"></div>
-                      <div class="history__details">
-                        <div class="status-green history__status">yoga</div>
-                        <div class="history__title">Stories From Our Community: Kohaku & Moyo Shiro</div>
-                        <div class="history__content">Track your workouts, get better results, and be the best version of you. Less thinking</div><a class="button-small history__button" href="article.html">Read full story</a>
-                      </div>
-                    </div>
+                </div>
+                <div class="programs__slide" data-aos="animation-opacity">
+                  <div class="programs__item">
+                    <div class="programs__icon" style="background-color: #9757D7;"><img src="img/content/medal-1.svg" alt="Medal"></div>
+                    <div class="programs__subtitle">Advanced</div>
+                    <div class="programs__content">A 7-days training program designed to boost your strength & endurance over the course of a week.</div><a class="button-stroke programs__button" href="class02-details.html">Book a class</a>
                   </div>
-                  <div class="history__slide">
-                    <div class="history__item">
-                      <div class="history__preview" style="background-image: url('img/content/history-pic.png');"></div>
-                      <div class="history__details">
-                        <div class="status-pink history__status">new</div>
-                        <div class="history__title">Stories From Our Community: Kohaku & Moyo Shiro</div>
-                        <div class="history__content">Track your workouts, get better results, and be the best version of you. Less thinking</div><a class="button-small history__button" href="article.html">Read full story</a>
-                      </div>
-                    </div>
+                </div>
+                <div class="programs__slide" data-aos="animation-opacity">
+                  <div class="programs__item">
+                    <div class="programs__icon" style="background-color: #3772FF;"><img src="img/content/lightning.svg" alt="Lightning"></div>
+                    <div class="programs__subtitle">Premium</div>
+                    <div class="programs__content">A 7-days training program designed to boost your strength & endurance over the course of a week.</div><a class="button-stroke programs__button" href="class02-details.html">Book a class</a>
                   </div>
-                  <div class="history__slide">
-                    <div class="history__item">
-                      <div class="history__preview" style="background-image: url('img/content/history-pic.png');"></div>
-                      <div class="history__details">
-                        <div class="status-green history__status">yoga</div>
-                        <div class="history__title">Stories From Our Community: Kohaku & Moyo Shiro</div>
-                        <div class="history__content">Track your workouts, get better results, and be the best version of you. Less thinking</div><a class="button-small history__button" href="article.html">Read full story</a>
-                      </div>
-                    </div>
+                </div>
+                <div class="programs__slide" data-aos="animation-opacity">
+                  <div class="programs__item">
+                    <div class="programs__icon" style="background-color: #45B26B;"><img src="img/content/user.svg" alt="User"></div>
+                    <div class="programs__subtitle">Beginners</div>
+                    <div class="programs__content">A 7-days training program designed to boost your strength & endurance over the course of a week.</div><a class="button-stroke programs__button" href="class02-details.html">Book a class</a>
+                  </div>
+                </div>
+                <div class="programs__slide" data-aos="animation-opacity">
+                  <div class="programs__item">
+                    <div class="programs__icon" style="background-color: #9757D7;"><img src="img/content/medal-1.svg" alt="Medal"></div>
+                    <div class="programs__subtitle">Advanced</div>
+                    <div class="programs__content">A 7-days training program designed to boost your strength & endurance over the course of a week.</div><a class="button-stroke programs__button" href="class02-details.html">Book a class</a>
+                  </div>
+                </div>
+                <div class="programs__slide" data-aos="animation-opacity">
+                  <div class="programs__item">
+                    <div class="programs__icon" style="background-color: #3772FF;"><img src="img/content/lightning.svg" alt="Lightning"></div>
+                    <div class="programs__subtitle">Premium</div>
+                    <div class="programs__content">A 7-days training program designed to boost your strength & endurance over the course of a week.</div><a class="button-stroke programs__button" href="class02-details.html">Book a class</a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="post__tabs js-tabs">
-              <div class="post__nav"><a class="post__link js-tabs-link active" href="#">Lifestyle</a><a class="post__link js-tabs-link" href="#">Fitness</a><a class="post__link js-tabs-link" href="#">Mindfulness</a></div>
-              <div class="post__container">
-                <div class="post__box js-tabs-item">
-                  <div class="post__list"><a class="post__item" href="article.html" data-aos="animation-opacity">
-                                          <div class="post__preview"><img srcSet="img/content/lifestyle-photo-1@2x.png 2x" src="img/content/lifestyle-photo-1.png" alt="fitness"></div>
-                                          <div class="status-red post__status">fitness</div>
-                                          <div class="post__subtitle">7 Impossibly Hard Yoga Moves to Master</div>
-                                          <div class="post__foot">
-                                            <div class="post__user">
-                                              <div class="post__avatar"><img src="img/content/avatar-5.png" alt="Avatar"></div>
-                                              <div class="post__author">Porter Daniel</div>
-                                            </div>
-                                            <div class="post__date">Feb 03, 2021</div>
-                                          </div></a><a class="post__item" href="article.html" data-aos="animation-opacity">
-                                          <div class="post__preview"><img srcSet="img/content/lifestyle-photo-2@2x.png 2x" src="img/content/lifestyle-photo-2.png" alt="yoga"></div>
-                                          <div class="status-green post__status">yoga</div>
-                                          <div class="post__subtitle">Keep It Chill: How To Do a Water Salutation</div>
-                                          <div class="post__foot">
-                                            <div class="post__user">
-                                              <div class="post__avatar"><img src="img/content/avatar-2.png" alt="Avatar"></div>
-                                              <div class="post__author">Clemens Reilly</div>
-                                            </div>
-                                            <div class="post__date">Feb 03, 2021</div>
-                                          </div></a><a class="post__item" href="article.html" data-aos="animation-opacity">
-                                          <div class="post__preview"><img srcSet="img/content/lifestyle-photo-3@2x.png 2x" src="img/content/lifestyle-photo-3.png" alt="new"></div>
-                                          <div class="status-pink post__status">new</div>
-                                          <div class="post__subtitle">Keep It Chill: How To Do a Water Salutation</div>
-                                          <div class="post__foot">
-                                            <div class="post__user">
-                                              <div class="post__avatar"><img src="img/content/avatar-3.png" alt="Avatar"></div>
-                                              <div class="post__author">Lorine Parker</div>
-                                            </div>
-                                            <div class="post__date">Feb 03, 2021</div>
-                                          </div></a><a class="post__item" href="article.html" data-aos="animation-opacity">
-                                          <div class="post__preview"><img srcSet="img/content/lifestyle-photo-4@2x.png 2x" src="img/content/lifestyle-photo-4.png" alt="featured"></div>
-                                          <div class="status-black post__status">featured</div>
-                                          <div class="post__subtitle">7 Impossibly Hard Yoga Moves to Master</div>
-                                          <div class="post__foot">
-                                            <div class="post__user">
-                                              <div class="post__avatar"><img src="img/content/avatar-1.png" alt="Avatar"></div>
-                                              <div class="post__author">Felipa Kub</div>
-                                            </div>
-                                            <div class="post__date">Feb 03, 2021</div>
-                                          </div></a><a class="post__item" href="article.html" data-aos="animation-opacity">
-                                          <div class="post__preview"><img srcSet="img/content/lifestyle-photo-5@2x.png 2x" src="img/content/lifestyle-photo-5.png" alt="fitness"></div>
-                                          <div class="status-red post__status">fitness</div>
-                                          <div class="post__subtitle">Fun Pose Friday: Half Camel With Raised Toe Pose</div>
-                                          <div class="post__foot">
-                                            <div class="post__user">
-                                              <div class="post__avatar"><img src="img/content/avatar-4.png" alt="Avatar"></div>
-                                              <div class="post__author">Porter Daniel</div>
-                                            </div>
-                                            <div class="post__date">Feb 03, 2021</div>
-                                          </div></a><a class="post__item" href="article.html" data-aos="animation-opacity">
-                                          <div class="post__preview"><img srcSet="img/content/lifestyle-photo-6@2x.png 2x" src="img/content/lifestyle-photo-6.png" alt="fitness"></div>
-                                          <div class="status-green post__status">fitness</div>
-                                          <div class="post__subtitle">7 Impossibly Hard Yoga Moves to Master</div>
-                                          <div class="post__foot">
-                                            <div class="post__user">
-                                              <div class="post__avatar"><img src="img/content/avatar-2.png" alt="Avatar"></div>
-                                              <div class="post__author">Clemens Reilly</div>
-                                            </div>
-                                            <div class="post__date">Feb 03, 2021</div>
-                                          </div></a>
-                  </div>
-                  <div class="post__btns">
-                    <button class="button-stroke button-small post__button">Load more</button>
-                  </div>
-                </div>
-                <div class="post__box js-tabs-item">
-                  <div class="post__list"><a class="post__item" href="article.html" data-aos="animation-opacity">
-                                          <div class="post__preview"><img srcSet="img/content/lifestyle-photo-2@2x.png 2x" src="img/content/lifestyle-photo-2.png" alt="yoga"></div>
-                                          <div class="status-green post__status">yoga</div>
-                                          <div class="post__subtitle">Keep It Chill: How To Do a Water Salutation</div>
-                                          <div class="post__foot">
-                                            <div class="post__user">
-                                              <div class="post__avatar"><img src="img/content/avatar-2.png" alt="Avatar"></div>
-                                              <div class="post__author">Clemens Reilly</div>
-                                            </div>
-                                            <div class="post__date">Feb 03, 2021</div>
-                                          </div></a><a class="post__item" href="article.html" data-aos="animation-opacity">
-                                          <div class="post__preview"><img srcSet="img/content/lifestyle-photo-3@2x.png 2x" src="img/content/lifestyle-photo-3.png" alt="new"></div>
-                                          <div class="status-pink post__status">new</div>
-                                          <div class="post__subtitle">Keep It Chill: How To Do a Water Salutation</div>
-                                          <div class="post__foot">
-                                            <div class="post__user">
-                                              <div class="post__avatar"><img src="img/content/avatar-3.png" alt="Avatar"></div>
-                                              <div class="post__author">Lorine Parker</div>
-                                            </div>
-                                            <div class="post__date">Feb 03, 2021</div>
-                                          </div></a><a class="post__item" href="article.html" data-aos="animation-opacity">
-                                          <div class="post__preview"><img srcSet="img/content/lifestyle-photo-4@2x.png 2x" src="img/content/lifestyle-photo-4.png" alt="featured"></div>
-                                          <div class="status-black post__status">featured</div>
-                                          <div class="post__subtitle">7 Impossibly Hard Yoga Moves to Master</div>
-                                          <div class="post__foot">
-                                            <div class="post__user">
-                                              <div class="post__avatar"><img src="img/content/avatar-1.png" alt="Avatar"></div>
-                                              <div class="post__author">Felipa Kub</div>
-                                            </div>
-                                            <div class="post__date">Feb 03, 2021</div>
-                                          </div></a><a class="post__item" href="article.html" data-aos="animation-opacity">
-                                          <div class="post__preview"><img srcSet="img/content/lifestyle-photo-5@2x.png 2x" src="img/content/lifestyle-photo-5.png" alt="fitness"></div>
-                                          <div class="status-red post__status">fitness</div>
-                                          <div class="post__subtitle">Fun Pose Friday: Half Camel With Raised Toe Pose</div>
-                                          <div class="post__foot">
-                                            <div class="post__user">
-                                              <div class="post__avatar"><img src="img/content/avatar-4.png" alt="Avatar"></div>
-                                              <div class="post__author">Porter Daniel</div>
-                                            </div>
-                                            <div class="post__date">Feb 03, 2021</div>
-                                          </div></a><a class="post__item" href="article.html" data-aos="animation-opacity">
-                                          <div class="post__preview"><img srcSet="img/content/lifestyle-photo-6@2x.png 2x" src="img/content/lifestyle-photo-6.png" alt="fitness"></div>
-                                          <div class="status-green post__status">fitness</div>
-                                          <div class="post__subtitle">7 Impossibly Hard Yoga Moves to Master</div>
-                                          <div class="post__foot">
-                                            <div class="post__user">
-                                              <div class="post__avatar"><img src="img/content/avatar-2.png" alt="Avatar"></div>
-                                              <div class="post__author">Clemens Reilly</div>
-                                            </div>
-                                            <div class="post__date">Feb 03, 2021</div>
-                                          </div></a>
-                  </div>
-                  <div class="post__btns">
-                    <button class="button-stroke button-small post__button">Load more</button>
-                  </div>
-                </div>
-                <div class="post__box js-tabs-item">
-                  <div class="post__list"><a class="post__item" href="article.html" data-aos="animation-opacity">
-                                          <div class="post__preview"><img srcSet="img/content/lifestyle-photo-4@2x.png 2x" src="img/content/lifestyle-photo-4.png" alt="featured"></div>
-                                          <div class="status-black post__status">featured</div>
-                                          <div class="post__subtitle">7 Impossibly Hard Yoga Moves to Master</div>
-                                          <div class="post__foot">
-                                            <div class="post__user">
-                                              <div class="post__avatar"><img src="img/content/avatar-1.png" alt="Avatar"></div>
-                                              <div class="post__author">Felipa Kub</div>
-                                            </div>
-                                            <div class="post__date">Feb 03, 2021</div>
-                                          </div></a><a class="post__item" href="article.html" data-aos="animation-opacity">
-                                          <div class="post__preview"><img srcSet="img/content/lifestyle-photo-5@2x.png 2x" src="img/content/lifestyle-photo-5.png" alt="fitness"></div>
-                                          <div class="status-red post__status">fitness</div>
-                                          <div class="post__subtitle">Fun Pose Friday: Half Camel With Raised Toe Pose</div>
-                                          <div class="post__foot">
-                                            <div class="post__user">
-                                              <div class="post__avatar"><img src="img/content/avatar-4.png" alt="Avatar"></div>
-                                              <div class="post__author">Porter Daniel</div>
-                                            </div>
-                                            <div class="post__date">Feb 03, 2021</div>
-                                          </div></a><a class="post__item" href="article.html" data-aos="animation-opacity">
-                                          <div class="post__preview"><img srcSet="img/content/lifestyle-photo-2@2x.png 2x" src="img/content/lifestyle-photo-2.png" alt="yoga"></div>
-                                          <div class="status-green post__status">yoga</div>
-                                          <div class="post__subtitle">Keep It Chill: How To Do a Water Salutation</div>
-                                          <div class="post__foot">
-                                            <div class="post__user">
-                                              <div class="post__avatar"><img src="img/content/avatar-2.png" alt="Avatar"></div>
-                                              <div class="post__author">Clemens Reilly</div>
-                                            </div>
-                                            <div class="post__date">Feb 03, 2021</div>
-                                          </div></a><a class="post__item" href="article.html" data-aos="animation-opacity">
-                                          <div class="post__preview"><img srcSet="img/content/lifestyle-photo-3@2x.png 2x" src="img/content/lifestyle-photo-3.png" alt="new"></div>
-                                          <div class="status-pink post__status">new</div>
-                                          <div class="post__subtitle">Keep It Chill: How To Do a Water Salutation</div>
-                                          <div class="post__foot">
-                                            <div class="post__user">
-                                              <div class="post__avatar"><img src="img/content/avatar-3.png" alt="Avatar"></div>
-                                              <div class="post__author">Lorine Parker</div>
-                                            </div>
-                                            <div class="post__date">Feb 03, 2021</div>
-                                          </div></a><a class="post__item" href="article.html" data-aos="animation-opacity">
-                                          <div class="post__preview"><img srcSet="img/content/lifestyle-photo-4@2x.png 2x" src="img/content/lifestyle-photo-4.png" alt="featured"></div>
-                                          <div class="status-black post__status">featured</div>
-                                          <div class="post__subtitle">7 Impossibly Hard Yoga Moves to Master</div>
-                                          <div class="post__foot">
-                                            <div class="post__user">
-                                              <div class="post__avatar"><img src="img/content/avatar-1.png" alt="Avatar"></div>
-                                              <div class="post__author">Felipa Kub</div>
-                                            </div>
-                                            <div class="post__date">Feb 03, 2021</div>
-                                          </div></a><a class="post__item" href="article.html" data-aos="animation-opacity">
-                                          <div class="post__preview"><img srcSet="img/content/lifestyle-photo-5@2x.png 2x" src="img/content/lifestyle-photo-5.png" alt="fitness"></div>
-                                          <div class="status-red post__status">fitness</div>
-                                          <div class="post__subtitle">Fun Pose Friday: Half Camel With Raised Toe Pose</div>
-                                          <div class="post__foot">
-                                            <div class="post__user">
-                                              <div class="post__avatar"><img src="img/content/avatar-4.png" alt="Avatar"></div>
-                                              <div class="post__author">Porter Daniel</div>
-                                            </div>
-                                            <div class="post__date">Feb 03, 2021</div>
-                                          </div></a><a class="post__item" href="article.html" data-aos="animation-opacity">
-                                          <div class="post__preview"><img srcSet="img/content/lifestyle-photo-6@2x.png 2x" src="img/content/lifestyle-photo-6.png" alt="fitness"></div>
-                                          <div class="status-green post__status">fitness</div>
-                                          <div class="post__subtitle">7 Impossibly Hard Yoga Moves to Master</div>
-                                          <div class="post__foot">
-                                            <div class="post__user">
-                                              <div class="post__avatar"><img src="img/content/avatar-2.png" alt="Avatar"></div>
-                                              <div class="post__author">Clemens Reilly</div>
-                                            </div>
-                                            <div class="post__date">Feb 03, 2021</div>
-                                          </div></a>
-                  </div>
-                  <div class="post__btns">
-                    <button class="button-stroke button-small post__button">Load more</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="section-pb community">
-          <div class="community__center center">
-            <div class="community__preview" data-aos="animation-translate-up"><img class="some-icon" srcSet="img/content/dumbbell@2x.png 2x" src="img/content/dumbbell.png" alt="Dumbbell"><img class="some-icon-dark" srcSet="img/content/dumbbell-dark@2x.png 2x" src="img/content/dumbbell-dark.png" alt="Dumbbell"></div>
-            <div class="stage-small">Save your time with Stacks</div>
-            <h2 class="community__title h2">Join Fitness Pro Community</h2>
-            <div class="community__text">Join Stacks community now to get free updates and also alot of freebies are waiting for you.</div>
-            <form class="subscription">
-              <input class="subscription__input" type="email" placeholder="Enter your email" required="required"/>
-              <button class="subscription__btn">
-                <svg class="icon icon-arrow-right">
-                  <use xlink:href="#icon-arrow-right"></use>
-                </svg>
-              </button>
-            </form>
-            <div class="community__note">By click sign in you, you agree with Stacks <a href="#">terms</a> and <a href="#">policy</a></div>
           </div>
         </div>
       </div>

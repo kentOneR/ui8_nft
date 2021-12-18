@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Home page</title>
+    <title>Home</title>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
@@ -44,13 +44,10 @@
   </head>
   <body>
     <script>
-      console.log(localStorage.getItem('darkMode'));
-      if (localStorage.getItem('darkMode') === "on") {
         document.body.classList.add("dark");
         document.addEventListener("DOMContentLoaded", function() {
           document.querySelector('.js-theme input').checked = true;
         });
-      }
     </script>
     <!-- outer-->
     <div class="outer">
@@ -203,167 +200,52 @@
 
       <!-- container-->
       <div class="outer__content">
-        <div class="main">
-          <div class="main__center center">
-            <div class="main__wrap">
-              <div class="stage">The Metatrucks NFT Collection</div>
-              <h1 class="main__title h1">The Leading Play-to-Earn Racing Game on Ethereum</h1>
-              <div class="main__text">Accèdez au Metaverse, gagnez des revenus passifs en devenant propriétaire d'un Metatrucks</div>
-              <div class="main__btns"><a class="button main__button" href="download.html">Discover the Game</a><a class="button-stroke main__button" href="class02-details.html">Join the Discord</a></div>
-            </div><a class="scroll js-scroll" href="#steps">
-              <div class="scroll__line">
-                <svg class="icon icon-arrow-down">
-                  <use xlink:href="#icon-arrow-down"></use>
-                </svg>
-                <svg class="icon icon-arrow-down">
-                  <use xlink:href="#icon-arrow-down"></use>
-                </svg>
-              </div></a>
-            <div class="main__gallery">
-              <div class="main__preview" data-aos="animation-translate-up" data-aos-anchor=".main__gallery"><img class="some-icon" srcSet="img/content/nft.png 2x" src="img/content/nft.png" alt="Watch"><img class="some-icon-dark" srcSet="img/content/watch-dark@2x.png 2x" src="img/content/watch-dark.png" alt="Watch"></div>
-              <div class="main__preview" data-aos="animation-translate-up" data-aos-delay="600" data-aos-anchor=".main__gallery"><img srcSet="img/content/coin.png 2x" src="img/content/coin.png" alt="Ball"></div>
-              <div class="main__preview" data-aos="animation-translate-up" data-aos-delay="300" data-aos-anchor=".main__gallery"><img srcSet="img/content/trophy.png 2x" src="img/content/trophy.png" alt="Bottle"></div>
-              <div class="main__preview" data-aos="animation-translate-up" data-aos-delay="900" data-aos-anchor=".main__gallery"><img srcSet="img/content/chat.png 2x" src="img/content/chat.png" alt="Ball black"></div>
-            </div>
+        <div class="section-border-top offers">
+          <div class="offers__center center">
+            <div class="stage">try it free for 14 days 🎾</div>
+            <h2 class="offers__title h1">Anywhere you want. Anytime you want.</h2>
+            <div class="offers__text">Get started with two free weeks of unlimited yoga, fitness, and meditation classes. Cancel anytime.</div><a class="button offers__button" href="download.html">Start free trial</a>
           </div>
         </div>
-        <div class="clients">
-          <div class="clients__center center">
-            <div class="clients__title">Trusted by more than 2M users worldwide</div>
-            <div class="clients__list">
-              <div class="clients__logo" data-aos="animation-opacity"><img src="img/content/rotashow.svg" alt="Logo"></div>
-              <div class="clients__logo" data-aos="animation-opacity"><img src="img/content/waves.svg" alt="Logo"></div>
-              <div class="clients__logo" data-aos="animation-opacity"><img src="img/content/rotashow.svg" alt="Logo"></div>
-              <div class="clients__logo" data-aos="animation-opacity"><img src="img/content/travelers.svg" alt="Logo"></div>
-              <div class="clients__logo" data-aos="animation-opacity"><img src="img/content/goldlines.svg" alt="Logo"></div>
-              <div class="clients__logo" data-aos="animation-opacity"><img src="img/content/velocity9.svg" alt="Logo"></div>
-            </div>
-          </div>
-        </div>
-        <div class="section steps" id="steps">
-          <div class="steps__center center">
-            <div class="steps__head">
-              <h2 claTrack your workouts, get better results, and be the bestversion of you. Less thinking, more lifting.ss="steps__title h2">How it works</h2>
-              <div class="steps__info">Stacks is a production-ready library of stackable content blocks built in React Native.</div>
-            </div>
-            <div class="steps__list">
-              <div class="steps__item" data-aos="animation-opacity">
-                <div class="steps__preview" style="background-color: #3772FF;"><img src="img/content/download.svg" alt="Step 1"></div>
-                <div class="steps__number">Step 1</div>
-                <div class="steps__subtitle">Download</div>
-                <div class="steps__content">Fitness Pro tracks your workouts, get better results, and be the best version of you.</div>
+        <div class="section-pb quality">
+          <div class="quality__center center">
+            <div class="quality__list">
+              <div class="quality__item" data-aos="animation-opacity">
+                <div class="quality__preview"><img src="img/content/user-green.svg" alt="User"></div>
+                <div class="quality__counter">1m</div>
+                <div class="quality__title">Happy Users</div>
+                <div class="quality__content">Stacks is a production-ready library of stackable content blocks built in React Native.</div>
               </div>
-              <div class="steps__item" data-aos="animation-opacity">
-                <div class="steps__preview" style="background-color: #9757D7;"><img src="img/content/whistle.svg" alt="Step 2"></div>
-                <div class="steps__number">Step 2</div>
-                <div class="steps__subtitle">Choose your trainner</div>
-                <div class="steps__content">Fitness Pro tracks your workouts, get better results, and be the best version of you.</div>
+              <div class="quality__item" data-aos="animation-opacity">
+                <div class="quality__preview"><img src="img/content/electrical-plug.svg" alt="Electrical Plug"></div>
+                <div class="quality__counter">1.2m</div>
+                <div class="quality__title">Downloads</div>
+                <div class="quality__content">Stacks is a production-ready library of stackable content blocks built in React Native.</div>
               </div>
-              <div class="steps__item" data-aos="animation-opacity">
-                <div class="steps__preview" style="background-color: #EF466F;"><img src="img/content/medal.svg" alt="Step 3"></div>
-                <div class="steps__number">Step 3</div>
-                <div class="steps__subtitle">Set the goals</div>
-                <div class="steps__content">Fitness Pro tracks your workouts, get better results, and be the best version of you.</div>
+              <div class="quality__item" data-aos="animation-opacity">
+                <div class="quality__preview"><img src="img/content/flag.svg" alt="Flag"></div>
+                <div class="quality__counter">50+</div>
+                <div class="quality__title">Countries</div>
+                <div class="quality__content">Stacks is a production-ready library of stackable content blocks built in React Native.</div>
               </div>
-              <div class="steps__item" data-aos="animation-opacity">
-                <div class="steps__preview" style="background-color: #45B26B;"><img src="img/content/stopwatch.svg" alt="Step 4"></div>
-                <div class="steps__number">Step 4</div>
-                <div class="steps__subtitle">Workout time</div>
-                <div class="steps__content">Fitness Pro tracks your workouts, get better results, and be the best version of you.</div>
+              <div class="quality__item" data-aos="animation-opacity">
+                <div class="quality__preview"><img src="img/content/facebook.svg" alt="Facebook"></div>
+                <div class="quality__counter">900k+</div>
+                <div class="quality__title">Likes on Facebook</div>
+                <div class="quality__content">Stacks is a production-ready library of stackable content blocks built in React Native.</div>
               </div>
             </div>
           </div>
         </div>
-
-        <div class="intro" id="intro">
-          <div class="intro__center center">
-            <div class="intro__gallery">
-              <div class="intro__preview" data-aos="animation-translate-up" data-aos-anchor=".intro__gallery"><img srcSet="img/content/bag@2x.png 2x" src="img/content/bag.png" alt="Bag"></div>
-              <div class="intro__preview" data-aos="animation-translate-up" data-aos-delay="300" data-aos-anchor=".intro__gallery"><img srcSet="img/content/gloves@2x.png 2x" src="img/content/gloves.png" alt="Gloves"></div>
-              <div class="intro__preview" data-aos="animation-translate-up" data-aos-delay="600" data-aos-anchor=".intro__gallery"><img srcSet="img/content/bottle-1@2x.png 2x" src="img/content/bottle-1.png" alt="Bottle"></div>
-            </div>
-            <div class="intro__wrap">
-              <h2 class="intro__title h1">Train smarter, get stronger.</h2>
-              <div class="intro__text">Fitness Pro helps track your workouts, get better results, and be the best version of you. Less thinking, more lifting 🔥🏀</div><a class="button intro__button" href="download.html">Start free trial</a>
-            </div>
-          </div>
-        </div>
-        <div class="section-bg book">
-          <div class="book__center center">
-            <div class="book__gallery">
-              <div class="book__preview"><img class="some-icon" srcSet="img/content/book-pic@2x.png 2x" src="img/content/book-pic.png" alt="Book pic"><img class="some-icon-dark" srcSet="img/content/book-pic-dark@2x.png 2x" src="img/content/book-pic-dark.png" alt="Book pic"></div>
-              <div class="book__preview" data-aos="animation-translate-up" data-aos-anchor=".book__gallery"><img srcSet="img/content/ball@2x.png 2x" src="img/content/ball.png" alt="Ball"></div>
-              <div class="book__preview" data-aos="animation-translate-up" data-aos-delay="300" data-aos-anchor=".book__gallery"><img srcSet="img/content/ball-green@2x.png 2x" src="img/content/ball-green.png" alt="Ball"></div>
-              <div class="book__preview" data-aos="animation-translate-up" data-aos-delay="600" data-aos-anchor=".book__gallery"><img srcSet="img/content/dumbbells@2x.png 2x" src="img/content/dumbbells.png" alt="Dumbbells"></div>
-            </div>
-            <div class="book__wrap">
-              <h2 class="book__title h2">Book a class</h2>
-              <div class="book__info">Track your workouts, get better results, and be the best version of you. Less thinking, more lifting.</div>
-              <div class="book__list">
-                <div class="book__item">
-                  <div class="book__icon" style="background-color: #45B26B;"><img src="img/content/user.svg" alt="User"></div>
-                  <div class="book__details">
-                    <div class="book__subtitle">For the beginners</div>
-                    <div class="book__content">You never workout before, it’s now a good start</div>
-                  </div>
-                </div>
-                <div class="book__item">
-                  <div class="book__icon" style="background-color: #9757D7;"><img src="img/content/medal-1.svg" alt="Medal"></div>
-                  <div class="book__details">
-                    <div class="book__subtitle">Advanced classes</div>
-                    <div class="book__content">You never workout before, it’s now a good start</div>
-                  </div>
-                </div>
-                <div class="book__item">
-                  <div class="book__icon" style="background-color: #3772FF;"><img src="img/content/lightning.svg" alt="Lightning"></div>
-                  <div class="book__details">
-                    <div class="book__subtitle">Premium (limited)</div>
-                    <div class="book__content">You never workout before, it’s now a good start</div>
-                  </div>
-                </div>
-              </div>
-              <div class="book__note"><strong class="book__green">10% Discount</strong> if you’re already using the <strong class="book__black">Fitness Pro</strong> on App Store</div>
-              <div class="book__btns"><a class="button book__button" href="class02-details.html">Book a class
-                  <svg class="icon icon-arrow-right">
-                    <use xlink:href="#icon-arrow-right"></use>
-                  </svg></a></div>
-            </div>
-          </div>
-        </div>
-        <div class="section details">
-          <div class="details__center center">
-            <div class="details__head">
-              <div class="stage-small">New workouts added every week</div>
-              <h2 class="details__title h2">A new fitness experience for everyone</h2>
-            </div>
-            <div class="details__list">
-              <div class="details__item" data-aos="animation-opacity">
-                <div class="details__icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="46" viewBox="0 0 36 46">
-                    <path fill="#23262f" fill-rule="evenodd" d="M24.292 0c5.947 0 9.815 6.259 7.155 11.578l-1.486 2.971C33.666 17.846 36 22.651 36 28c0 9.941-8.059 18-18 18S0 37.941 0 28c0-5.349 2.334-10.154 6.038-13.451l-1.485-2.971C1.893 6.259 5.761 0 11.708 0h12.584zM18 14c-7.732 0-14 6.268-14 14s6.268 14 14 14 14-6.268 14-14-6.268-14-14-14zm6.292-10H11.708C8.735 4 6.801 7.129 8.131 9.789l1.213 2.425A17.92 17.92 0 0 1 18 10a17.92 17.92 0 0 1 8.657 2.215l1.212-2.426C29.199 7.129 27.265 4 24.292 4z"></path>
-                  </svg>
-                </div>
-                <div class="details__category">Keep track of calories and macros</div>
-                <div class="details__content">Fitness Pro helps track your workouts, get better results, and be the best version of you. Less thinking!</div>
-              </div>
-              <div class="details__item" data-aos="animation-opacity">
-                <div class="details__icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
-                    <path fill="#23262f" fill-rule="evenodd" d="M34.201 5.917l.05.05.336.35.019.02h0l.036.038.309.339.048.054h0l.018.021C38.119 10.314 40 14.937 40 20s-1.881 9.686-4.982 13.209l-.018.021-.048.055-.309.339-.038.041-.354.368-.05.05-.059.059c-.244.244-.495.482-.751.714l-.071.063-.385.335-.086.073a20.19 20.19 0 0 1-.783.625l-.066.05A19.91 19.91 0 0 1 20 40a19.92 19.92 0 0 1-12.849-4.673l-.086-.073-.384-.335-.071-.064a20.08 20.08 0 0 1-1.213-1.191 20.47 20.47 0 0 1-.395-.435l.357.394-.309-.339-.048-.054h0l-.019-.021C1.881 29.686 0 25.063 0 20s1.881-9.686 4.982-13.209l.019-.021.048-.055.308-.339.036-.038.019-.02c.386-.411.789-.806 1.208-1.183l.06-.054.389-.339.104-.088a19.99 19.99 0 0 1 .82-.651L8 3.999l.034-.025A19.91 19.91 0 0 1 20 0a19.91 19.91 0 0 1 12 3.998l.038.029a20.16 20.16 0 0 1 .788.627l.105.088.389.339.06.054a20.2 20.2 0 0 1 .762.723l.059.059h0zM20 4c-3.338 0-6.438 1.022-9.002 2.771C14.112 10.296 16 14.928 16 20s-1.888 9.704-5 13.229C13.562 34.978 16.662 36 20 36s6.438-1.022 9.002-2.771C25.888 29.704 24 25.072 24 20s1.888-9.704 5-13.229C26.438 5.022 23.338 4 20 4zM8 9.417l-.111.126C5.466 12.347 4 16.002 4 20a15.94 15.94 0 0 0 4 10.583c2.49-2.821 4-6.526 4-10.583A15.94 15.94 0 0 0 8 9.417zm24.001.001l-.108.122C29.467 12.344 28 16.001 28 20a15.94 15.94 0 0 0 3.999 10.582A15.93 15.93 0 0 0 36 20a15.94 15.94 0 0 0-3.999-10.582z"></path>
-                  </svg>
-                </div>
-                <div class="details__category">Access all premium class of Fitness Pro</div>
-                <div class="details__content">Fitness Pro helps track your workouts, get better results, and be the best version of you. Less thinking!</div>
-              </div>
-              <div class="details__item" data-aos="animation-opacity">
-                <div class="details__icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="38" height="44" viewBox="0 0 38 44">
-                    <path fill="#23262f" fill-rule="evenodd" d="M18 8c9.941 0 18 8.059 18 18s-8.059 18-18 18S0 35.941 0 26 8.059 8 18 8zm0 4c-7.732 0-14 6.268-14 14s6.268 14 14 14 14-6.268 14-14-6.268-14-14-14zm0 4a2 2 0 0 1 2 2v8a2 2 0 1 1-4 0v-8a2 2 0 0 1 2-2zm14.586-9.414a2 2 0 0 1 2.828 0h0l2 2a2 2 0 0 1-2.828 2.828h0l-2-2a2 2 0 0 1 0-2.828zM22 0a2 2 0 1 1 0 4h0-8a2 2 0 1 1 0-4h0z"></path>
-                  </svg>
-                </div>
-                <div class="details__category">Keep track of calories and macros</div>
-                <div class="details__content">Fitness Pro helps track your workouts, get better results, and be the best version of you. Less thinking!</div>
-              </div>
+        <div class="breadcrumbs">
+          <div class="breadcrumbs__center center">
+            <div class="breadcrumbs__wrap">
+              <h2 class="breadcrumbs__title h2">Find a class to achieve your goals</h2>
+              <div class="breadcrumbs__info">Build your perfect workout with our pro trainers</div>
+              <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Class</a></li>
+                <li class="breadcrumbs__item">Program</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -411,193 +293,6 @@
             </div>
           </div>
         </div>
-        <div class="team js-tabs">
-          <div class="team__center center">
-            <div class="team__head">
-              <h2 class="team__title h2">Meet our pro trainers</h2>
-              <div class="team__info">From all over the world, we select and provide you a team of seasoned trainers. What's more, the 1-on-1 live practice mode helps you quickly get great results.</div>
-              <div class="team__nav"><a class="team__link js-tabs-link" href="#">Yoga</a><a class="team__link js-tabs-link" href="#">Fitness & Gym</a><a class="team__link js-tabs-link" href="#">Gymnastics</a><a class="team__link js-tabs-link" href="#">Running</a></div>
-              <select class="select js-tabs-select">
-                <option>Yoga</option>
-                <option>Fitness & Gym</option>
-                <option>Gymnastics</option>
-                <option>Running</option>
-              </select>
-            </div>
-            <div class="team__container">
-              <div class="team__box js-tabs-item">
-                <div class="team__wrap">
-                  <div class="team__slider js-tabs-slider">
-                                        <div class="team__slide" data-aos="animation-opacity"><a class="team__item js-popup-open" href="#popup-trainer">
-                                            <div class="team__avatar"><img src="img/content/avatar-1.png" alt="Avatar"></div>
-                                            <div class="team__man">Baron Toy</div>
-                                            <div class="team__position">Yoga Master</div></a></div>
-                                        <div class="team__slide" data-aos="animation-opacity"><a class="team__item js-popup-open" href="#popup-trainer">
-                                            <div class="team__avatar"><img src="img/content/avatar-2.png" alt="Avatar"></div>
-                                            <div class="team__man">Kacie Kiehn</div>
-                                            <div class="team__position">Personal Trainer</div></a></div>
-                                        <div class="team__slide" data-aos="animation-opacity"><a class="team__item js-popup-open" href="#popup-trainer">
-                                            <div class="team__avatar"><img src="img/content/avatar-3.png" alt="Avatar"></div>
-                                            <div class="team__man">Marcelino Hettinger</div>
-                                            <div class="team__position">Boxer</div></a></div>
-                                        <div class="team__slide" data-aos="animation-opacity"><a class="team__item js-popup-open" href="#popup-trainer">
-                                            <div class="team__avatar"><img src="img/content/avatar-4.png" alt="Avatar"></div>
-                                            <div class="team__man">Rosemarie Hintz</div>
-                                            <div class="team__position">Business Analytic</div></a></div>
-                                        <div class="team__slide" data-aos="animation-opacity"><a class="team__item js-popup-open" href="#popup-trainer">
-                                            <div class="team__avatar"><img src="img/content/avatar-5.png" alt="Avatar"></div>
-                                            <div class="team__man">Syble Prohaska</div>
-                                            <div class="team__position">Business Analytic</div></a></div>
-                                        <div class="team__slide" data-aos="animation-opacity"><a class="team__item js-popup-open" href="#popup-trainer">
-                                            <div class="team__avatar"><img src="img/content/avatar-6.png" alt="Avatar"></div>
-                                            <div class="team__man">Ila Reinger</div>
-                                            <div class="team__position">Business Analytic</div></a></div>
-                  </div>
-                </div>
-              </div>
-              <div class="team__box js-tabs-item">
-                <div class="team__wrap">
-                  <div class="team__slider js-tabs-slider">
-                                        <div class="team__slide" data-aos="animation-opacity"><a class="team__item js-popup-open" href="#popup-trainer">
-                                            <div class="team__avatar"><img src="img/content/avatar-2.png" alt="Avatar"></div>
-                                            <div class="team__man">Kacie Kiehn</div>
-                                            <div class="team__position">Personal Trainer</div></a></div>
-                                        <div class="team__slide" data-aos="animation-opacity"><a class="team__item js-popup-open" href="#popup-trainer">
-                                            <div class="team__avatar"><img src="img/content/avatar-3.png" alt="Avatar"></div>
-                                            <div class="team__man">Marcelino Hettinger</div>
-                                            <div class="team__position">Boxer</div></a></div>
-                                        <div class="team__slide" data-aos="animation-opacity"><a class="team__item js-popup-open" href="#popup-trainer">
-                                            <div class="team__avatar"><img src="img/content/avatar-4.png" alt="Avatar"></div>
-                                            <div class="team__man">Rosemarie Hintz</div>
-                                            <div class="team__position">Business Analytic</div></a></div>
-                                        <div class="team__slide" data-aos="animation-opacity"><a class="team__item js-popup-open" href="#popup-trainer">
-                                            <div class="team__avatar"><img src="img/content/avatar-5.png" alt="Avatar"></div>
-                                            <div class="team__man">Syble Prohaska</div>
-                                            <div class="team__position">Business Analytic</div></a></div>
-                  </div>
-                </div>
-              </div>
-              <div class="team__box js-tabs-item">
-                <div class="team__wrap">
-                  <div class="team__slider js-tabs-slider">
-                                        <div class="team__slide" data-aos="animation-opacity"><a class="team__item js-popup-open" href="#popup-trainer">
-                                            <div class="team__avatar"><img src="img/content/avatar-5.png" alt="Avatar"></div>
-                                            <div class="team__man">Syble Prohaska</div>
-                                            <div class="team__position">Business Analytic</div></a></div>
-                                        <div class="team__slide" data-aos="animation-opacity"><a class="team__item js-popup-open" href="#popup-trainer">
-                                            <div class="team__avatar"><img src="img/content/avatar-1.png" alt="Avatar"></div>
-                                            <div class="team__man">Baron Toy</div>
-                                            <div class="team__position">Yoga Master</div></a></div>
-                                        <div class="team__slide" data-aos="animation-opacity"><a class="team__item js-popup-open" href="#popup-trainer">
-                                            <div class="team__avatar"><img src="img/content/avatar-2.png" alt="Avatar"></div>
-                                            <div class="team__man">Kacie Kiehn</div>
-                                            <div class="team__position">Personal Trainer</div></a></div>
-                                        <div class="team__slide" data-aos="animation-opacity"><a class="team__item js-popup-open" href="#popup-trainer">
-                                            <div class="team__avatar"><img src="img/content/avatar-3.png" alt="Avatar"></div>
-                                            <div class="team__man">Marcelino Hettinger</div>
-                                            <div class="team__position">Boxer</div></a></div>
-                                        <div class="team__slide" data-aos="animation-opacity"><a class="team__item js-popup-open" href="#popup-trainer">
-                                            <div class="team__avatar"><img src="img/content/avatar-4.png" alt="Avatar"></div>
-                                            <div class="team__man">Rosemarie Hintz</div>
-                                            <div class="team__position">Business Analytic</div></a></div>
-                  </div>
-                </div>
-              </div>
-              <div class="team__box js-tabs-item">
-                <div class="team__wrap">
-                  <div class="team__slider js-tabs-slider">
-                                        <div class="team__slide" data-aos="animation-opacity"><a class="team__item js-popup-open" href="#popup-trainer">
-                                            <div class="team__avatar"><img src="img/content/avatar-1.png" alt="Avatar"></div>
-                                            <div class="team__man">Baron Toy</div>
-                                            <div class="team__position">Yoga Master</div></a></div>
-                                        <div class="team__slide" data-aos="animation-opacity"><a class="team__item js-popup-open" href="#popup-trainer">
-                                            <div class="team__avatar"><img src="img/content/avatar-2.png" alt="Avatar"></div>
-                                            <div class="team__man">Kacie Kiehn</div>
-                                            <div class="team__position">Personal Trainer</div></a></div>
-                                        <div class="team__slide" data-aos="animation-opacity"><a class="team__item js-popup-open" href="#popup-trainer">
-                                            <div class="team__avatar"><img src="img/content/avatar-3.png" alt="Avatar"></div>
-                                            <div class="team__man">Marcelino Hettinger</div>
-                                            <div class="team__position">Boxer</div></a></div>
-                                        <div class="team__slide" data-aos="animation-opacity"><a class="team__item js-popup-open" href="#popup-trainer">
-                                            <div class="team__avatar"><img src="img/content/avatar-4.png" alt="Avatar"></div>
-                                            <div class="team__man">Rosemarie Hintz</div>
-                                            <div class="team__position">Business Analytic</div></a></div>
-                                        <div class="team__slide" data-aos="animation-opacity"><a class="team__item js-popup-open" href="#popup-trainer">
-                                            <div class="team__avatar"><img src="img/content/avatar-5.png" alt="Avatar"></div>
-                                            <div class="team__man">Syble Prohaska</div>
-                                            <div class="team__position">Business Analytic</div></a></div>
-                                        <div class="team__slide" data-aos="animation-opacity"><a class="team__item js-popup-open" href="#popup-trainer">
-                                            <div class="team__avatar"><img src="img/content/avatar-6.png" alt="Avatar"></div>
-                                            <div class="team__man">Ila Reinger</div>
-                                            <div class="team__position">Business Analytic</div></a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="section review">
-          <div class="review__center center">
-            <div class="review__wrap">
-              <div class="review__slider js-slider-review">
-                <div class="review__slide">
-                  <div class="review__item">
-                    <div class="review__logo"><img src="img/content/velocity9.svg" alt="Velocity9"></div>
-                    <div class="review__title">The greatest fitness app. It's clear the makers behind this thing use it every week, because it is so perfect. </div>
-                    <div class="review__author">Dorthy Runolfsdottir</div>
-                    <div class="review__position">Lead Visual Designer at UI8</div>
-                  </div>
-                </div>
-                <div class="review__slide">
-                  <div class="review__item">
-                    <div class="review__logo"><img src="img/content/travelers.svg" alt="Travelers"></div>
-                    <div class="review__title">The best of all the workout apps I have tried on iOS. I have used Fitness Pro for more than a year now. It is intuitive and clean, awesome app.</div>
-                    <div class="review__author">Dorthy Runolfsdottir</div>
-                    <div class="review__position">Lead Visual Designer at UI8</div>
-                  </div>
-                </div>
-                <div class="review__slide">
-                  <div class="review__item">
-                    <div class="review__logo"><img src="img/content/goldlines.svg" alt="Goldlines"></div>
-                    <div class="review__title">The greatest fitness app. It's clear the makers behind this thing use it every week, because it is so perfect. </div>
-                    <div class="review__author">Dorthy Runolfsdottir</div>
-                    <div class="review__position">Lead Visual Designer at UI8</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="section-pb quality">
-          <div class="quality__center center">
-            <div class="quality__list">
-              <div class="quality__item" data-aos="animation-opacity">
-                <div class="quality__preview"><img src="img/content/user-green.svg" alt="User"></div>
-                <div class="quality__counter">1m</div>
-                <div class="quality__title">Happy Users</div>
-                <div class="quality__content">Stacks is a production-ready library of stackable content blocks built in React Native.</div>
-              </div>
-              <div class="quality__item" data-aos="animation-opacity">
-                <div class="quality__preview"><img src="img/content/electrical-plug.svg" alt="Electrical Plug"></div>
-                <div class="quality__counter">1.2m</div>
-                <div class="quality__title">Downloads</div>
-                <div class="quality__content">Stacks is a production-ready library of stackable content blocks built in React Native.</div>
-              </div>
-              <div class="quality__item" data-aos="animation-opacity">
-                <div class="quality__preview"><img src="img/content/flag.svg" alt="Flag"></div>
-                <div class="quality__counter">50+</div>
-                <div class="quality__title">Countries</div>
-                <div class="quality__content">Stacks is a production-ready library of stackable content blocks built in React Native.</div>
-              </div>
-              <div class="quality__item" data-aos="animation-opacity">
-                <div class="quality__preview"><img src="img/content/facebook.svg" alt="Facebook"></div>
-                <div class="quality__counter">900k+</div>
-                <div class="quality__title">Likes on Facebook</div>
-                <div class="quality__content">Stacks is a production-ready library of stackable content blocks built in React Native.</div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div class="section-bg advantages">
           <div class="advantages__center center">
             <div class="advantages__head">
@@ -620,150 +315,74 @@
             </div>
           </div>
         </div>
-        <div class="workouts">
-          <div class="workouts__center center">
-            <div class="workouts__gallery">
-              <div class="workouts__preview"><img class="some-icon" srcSet="img/content/phones@2x.png 2x" src="img/content/phones.png" alt="Phones"><img class="some-icon-dark" srcSet="img/content/phones-dark@2x.png 2x" src="img/content/phones-dark.png" alt="Phones"></div>
-              <div class="workouts__preview" data-aos="animation-translate-up" data-aos-anchor=".workouts__gallery"><img srcSet="img/content/ball-green-1@2x.png 2x" src="img/content/ball-green-1.png" alt="Ball"></div>
-              <div class="workouts__preview" data-aos="animation-translate-up" data-aos-delay="400" data-aos-anchor=".workouts__gallery"><img srcSet="img/content/apple@2x.png 2x" src="img/content/apple.png" alt="Apple"></div>
+        <div class="section-pb details">
+          <div class="details__center center">
+            <div class="details__head">
+              <div class="stage-small">New workouts added every week</div>
+              <h2 class="details__title h2">A new fitness experience for everyone</h2>
             </div>
-            <div class="workouts__wrap">
-              <h2 class="workouts__title h2">All your workouts, <br>in your pocket</h2>
-              <div class="workouts__info">Fitness Pro helps track your workouts, get better results, and be the best version of you. Less thinking!</div>
-              <ul class="workouts__list">
-                <li>Fitness Pro Cloud</li>
-                <li>Syncs with Google Fit</li>
-                <li>Syncs with Apple Health</li>
-                <li>Track your progress easily</li>
-                <li>Intuitive and clean design</li>
-              </ul>
-              <div class="workouts__btns"><a class="button workouts__button" href="pricing.html">Choose Plan</a><a class="button-stroke workouts__button" href="#">Request a demo</a></div>
-            </div>
-          </div>
-        </div>
-        <div class="section-border-top offers">
-          <div class="offers__center center">
-            <div class="stage">try it free for 14 days 🎾</div>
-            <h2 class="offers__title h1">Anywhere you want. Anytime you want.</h2>
-            <div class="offers__text">Get started with two free weeks of unlimited yoga, fitness, and meditation classes. Cancel anytime.</div><a class="button offers__button" href="download.html">Start free trial</a>
-          </div>
-        </div>
-        <div class="popup popup_trainer mfp-hide" id="popup-trainer">
-          <div class="trainer">
-            <div class="trainer__avatar"><img src="img/content/avatar-5.png" alt="Avatar"/></div>
-            <div class="trainer__name h3">Johathan Kula</div>
-            <div class="trainer__position">Personal trainer</div>
-            <div class="trainer__socials"><a class="trainer__social" href="https://facebook.com" target="_blank">
-                <svg class="icon icon-facebook">
-                  <use xlink:href="#icon-facebook"></use>
-                </svg></a><a class="trainer__social" href="https://instagram.com" target="_blank">
-                <svg class="icon icon-instagram">
-                  <use xlink:href="#icon-instagram"></use>
-                </svg></a><a class="trainer__social" href="https://twitter.com" target="_blank">
-                <svg class="icon icon-twitter">
-                  <use xlink:href="#icon-twitter"></use>
-                </svg></a><a class="trainer__social" href="https://linkedin.com" target="_blank">
-                <svg class="icon icon-linkedin">
-                  <use xlink:href="#icon-linkedin"></use>
-                </svg></a></div>
-            <form class="subscription">
-              <input class="subscription__input" type="email" placeholder="Find a class" required="required"/>
-              <button class="subscription__btn">
-                <svg class="icon icon-arrow-right">
-                  <use xlink:href="#icon-arrow-right"></use>
-                </svg>
-              </button>
-            </form>
-            <div class="trainer__wrap">
-              <div class="trainer__slider js-slider-trainer">
-                <div class="trainer__slide"><a class="trainer__item" href="class01-details.html">
-                              <div class="trainer__preview"><img srcSet="img/content/card-pic-1.png 2x" src="img/content/card-pic-1@2x.png" alt="yoga"/>
-                                <div class="status-white trainer__category">yoga</div>
-                              </div>
-                              <div class="trainer__head">
-                                <div class="trainer__title">Power Yoga Sculpt</div>
-                                <div class="status-stroke-green trainer__level">beginner</div>
-                              </div>
-                              <div class="trainer__parameters">
-                                <div class="trainer__parameter">
-                                  <svg class="icon icon-button-play">
-                                    <use xlink:href="#icon-button-play"></use>
-                                  </svg>7
-                                </div>
-                                <div class="trainer__parameter">
-                                  <svg class="icon icon-user">
-                                    <use xlink:href="#icon-user"></use>
-                                  </svg>160
-                                </div>
-                              </div></a>
+            <div class="details__list">
+              <div class="details__item" data-aos="animation-opacity">
+                <div class="details__icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="46" viewBox="0 0 36 46">
+                    <path fill="#23262f" fill-rule="evenodd" d="M24.292 0c5.947 0 9.815 6.259 7.155 11.578l-1.486 2.971C33.666 17.846 36 22.651 36 28c0 9.941-8.059 18-18 18S0 37.941 0 28c0-5.349 2.334-10.154 6.038-13.451l-1.485-2.971C1.893 6.259 5.761 0 11.708 0h12.584zM18 14c-7.732 0-14 6.268-14 14s6.268 14 14 14 14-6.268 14-14-6.268-14-14-14zm6.292-10H11.708C8.735 4 6.801 7.129 8.131 9.789l1.213 2.425A17.92 17.92 0 0 1 18 10a17.92 17.92 0 0 1 8.657 2.215l1.212-2.426C29.199 7.129 27.265 4 24.292 4z"></path>
+                  </svg>
                 </div>
-                <div class="trainer__slide"><a class="trainer__item" href="class01-details.html">
-                              <div class="trainer__preview"><img srcSet="img/content/card-pic-2.png 2x" src="img/content/card-pic-2@2x.png" alt="fitness"/>
-                                <div class="status-white trainer__category">fitness</div>
-                              </div>
-                              <div class="trainer__head">
-                                <div class="trainer__title">Power Yoga Sculpt</div>
-                                <div class="status-stroke-green trainer__level">beginner</div>
-                              </div>
-                              <div class="trainer__parameters">
-                                <div class="trainer__parameter">
-                                  <svg class="icon icon-button-play">
-                                    <use xlink:href="#icon-button-play"></use>
-                                  </svg>7
-                                </div>
-                                <div class="trainer__parameter">
-                                  <svg class="icon icon-user">
-                                    <use xlink:href="#icon-user"></use>
-                                  </svg>160
-                                </div>
-                              </div></a>
+                <div class="details__category">Keep track of calories and macros</div>
+                <div class="details__content">Fitness Pro helps track your workouts, get better results, and be the best version of you. Less thinking!</div>
+              </div>
+              <div class="details__item" data-aos="animation-opacity">
+                <div class="details__icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+                    <path fill="#23262f" fill-rule="evenodd" d="M34.201 5.917l.05.05.336.35.019.02h0l.036.038.309.339.048.054h0l.018.021C38.119 10.314 40 14.937 40 20s-1.881 9.686-4.982 13.209l-.018.021-.048.055-.309.339-.038.041-.354.368-.05.05-.059.059c-.244.244-.495.482-.751.714l-.071.063-.385.335-.086.073a20.19 20.19 0 0 1-.783.625l-.066.05A19.91 19.91 0 0 1 20 40a19.92 19.92 0 0 1-12.849-4.673l-.086-.073-.384-.335-.071-.064a20.08 20.08 0 0 1-1.213-1.191 20.47 20.47 0 0 1-.395-.435l.357.394-.309-.339-.048-.054h0l-.019-.021C1.881 29.686 0 25.063 0 20s1.881-9.686 4.982-13.209l.019-.021.048-.055.308-.339.036-.038.019-.02c.386-.411.789-.806 1.208-1.183l.06-.054.389-.339.104-.088a19.99 19.99 0 0 1 .82-.651L8 3.999l.034-.025A19.91 19.91 0 0 1 20 0a19.91 19.91 0 0 1 12 3.998l.038.029a20.16 20.16 0 0 1 .788.627l.105.088.389.339.06.054a20.2 20.2 0 0 1 .762.723l.059.059h0zM20 4c-3.338 0-6.438 1.022-9.002 2.771C14.112 10.296 16 14.928 16 20s-1.888 9.704-5 13.229C13.562 34.978 16.662 36 20 36s6.438-1.022 9.002-2.771C25.888 29.704 24 25.072 24 20s1.888-9.704 5-13.229C26.438 5.022 23.338 4 20 4zM8 9.417l-.111.126C5.466 12.347 4 16.002 4 20a15.94 15.94 0 0 0 4 10.583c2.49-2.821 4-6.526 4-10.583A15.94 15.94 0 0 0 8 9.417zm24.001.001l-.108.122C29.467 12.344 28 16.001 28 20a15.94 15.94 0 0 0 3.999 10.582A15.93 15.93 0 0 0 36 20a15.94 15.94 0 0 0-3.999-10.582z"></path>
+                  </svg>
                 </div>
-                <div class="trainer__slide"><a class="trainer__item" href="class01-details.html">
-                              <div class="trainer__preview"><img srcSet="img/content/card-pic-3.png 2x" src="img/content/card-pic-3@2x.png" alt="yoga"/>
-                                <div class="status-white trainer__category">yoga</div>
-                              </div>
-                              <div class="trainer__head">
-                                <div class="trainer__title">Power Yoga Sculpt</div>
-                                <div class="status-stroke-green trainer__level">beginner</div>
-                              </div>
-                              <div class="trainer__parameters">
-                                <div class="trainer__parameter">
-                                  <svg class="icon icon-button-play">
-                                    <use xlink:href="#icon-button-play"></use>
-                                  </svg>7
-                                </div>
-                                <div class="trainer__parameter">
-                                  <svg class="icon icon-user">
-                                    <use xlink:href="#icon-user"></use>
-                                  </svg>160
-                                </div>
-                              </div></a>
+                <div class="details__category">Access all premium class of Fitness Pro</div>
+                <div class="details__content">Fitness Pro helps track your workouts, get better results, and be the best version of you. Less thinking!</div>
+              </div>
+              <div class="details__item" data-aos="animation-opacity">
+                <div class="details__icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="38" height="44" viewBox="0 0 38 44">
+                    <path fill="#23262f" fill-rule="evenodd" d="M18 8c9.941 0 18 8.059 18 18s-8.059 18-18 18S0 35.941 0 26 8.059 8 18 8zm0 4c-7.732 0-14 6.268-14 14s6.268 14 14 14 14-6.268 14-14-6.268-14-14-14zm0 4a2 2 0 0 1 2 2v8a2 2 0 1 1-4 0v-8a2 2 0 0 1 2-2zm14.586-9.414a2 2 0 0 1 2.828 0h0l2 2a2 2 0 0 1-2.828 2.828h0l-2-2a2 2 0 0 1 0-2.828zM22 0a2 2 0 1 1 0 4h0-8a2 2 0 1 1 0-4h0z"></path>
+                  </svg>
                 </div>
-                <div class="trainer__slide"><a class="trainer__item" href="class01-details.html">
-                              <div class="trainer__preview"><img srcSet="img/content/card-pic-4.png 2x" src="img/content/card-pic-4@2x.png" alt="fitness"/>
-                                <div class="status-white trainer__category">fitness</div>
-                              </div>
-                              <div class="trainer__head">
-                                <div class="trainer__title">Power Yoga Sculpt</div>
-                                <div class="status-stroke-green trainer__level">beginner</div>
-                              </div>
-                              <div class="trainer__parameters">
-                                <div class="trainer__parameter">
-                                  <svg class="icon icon-button-play">
-                                    <use xlink:href="#icon-button-play"></use>
-                                  </svg>7
-                                </div>
-                                <div class="trainer__parameter">
-                                  <svg class="icon icon-user">
-                                    <use xlink:href="#icon-user"></use>
-                                  </svg>160
-                                </div>
-                              </div></a>
-                </div>
+                <div class="details__category">Keep track of calories and macros</div>
+                <div class="details__content">Fitness Pro helps track your workouts, get better results, and be the best version of you. Less thinking!</div>
               </div>
             </div>
-            <div class="trainer__btns">
-              <button class="button-small trainer__button">Browse all class</button>
+          </div>
+        </div>
+        <div class="section steps" id="steps">
+          <div class="steps__center center">
+            <div class="steps__head">
+              <h2 claTrack your workouts, get better results, and be the bestversion of you. Less thinking, more lifting.ss="steps__title h2">How it works</h2>
+              <div class="steps__info">Stacks is a production-ready library of stackable content blocks built in React Native.</div>
+            </div>
+            <div class="steps__list">
+              <div class="steps__item" data-aos="animation-opacity">
+                <div class="steps__preview" style="background-color: #3772FF;"><img src="img/content/download.svg" alt="Step 1"></div>
+                <div class="steps__number">Step 1</div>
+                <div class="steps__subtitle">Download</div>
+                <div class="steps__content">Fitness Pro tracks your workouts, get better results, and be the best version of you.</div>
+              </div>
+              <div class="steps__item" data-aos="animation-opacity">
+                <div class="steps__preview" style="background-color: #9757D7;"><img src="img/content/whistle.svg" alt="Step 2"></div>
+                <div class="steps__number">Step 2</div>
+                <div class="steps__subtitle">Choose your trainner</div>
+                <div class="steps__content">Fitness Pro tracks your workouts, get better results, and be the best version of you.</div>
+              </div>
+              <div class="steps__item" data-aos="animation-opacity">
+                <div class="steps__preview" style="background-color: #EF466F;"><img src="img/content/medal.svg" alt="Step 3"></div>
+                <div class="steps__number">Step 3</div>
+                <div class="steps__subtitle">Set the goals</div>
+                <div class="steps__content">Fitness Pro tracks your workouts, get better results, and be the best version of you.</div>
+              </div>
+              <div class="steps__item" data-aos="animation-opacity">
+                <div class="steps__preview" style="background-color: #45B26B;"><img src="img/content/stopwatch.svg" alt="Step 4"></div>
+                <div class="steps__number">Step 4</div>
+                <div class="steps__subtitle">Workout time</div>
+                <div class="steps__content">Fitness Pro tracks your workouts, get better results, and be the best version of you.</div>
+              </div>
             </div>
           </div>
         </div>
